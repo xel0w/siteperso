@@ -1,0 +1,142 @@
+@font-face { font-family: apexfont; src: url('apexfont.ttf'); } 
+@font-face { font-family: apexfont2; src: url('apexfont2.ttf'); } 
+
+body{
+    background:#001c2d;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: aliceblue;
+}
+
+nav{
+    background: rgb(0,28,45);
+    background: linear-gradient(0deg, rgba(0,28,45,1) 48%, rgba(38,87,117,1) 100%);
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    margin-top: 5%;
+    width: 30%;
+    font-family: apexfont;
+    font-size: 30px;
+    text-align: right;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.tiktok{
+    width: 49%;
+}
+.config{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.composant{
+    height: 100%;
+    padding: 2%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #02314e;
+    color: aliceblue;
+    font-family: apexfont;
+    box-shadow: 10px 5px 5px black;
+}
+
+.periph{
+    height: 100%;
+    padding: 2%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #02314e;
+    color: aliceblue;
+    font-family: apexfont;
+    box-shadow: 10px 5px 5px black;
+}
+.confighaut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.configbas{
+    display: flex;
+    justify-content: center;
+}
+.configbas img{
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: aliceblue;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out; 
+    text-decoration-color: red;
+}
+a:hover {
+    
+
+    -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+li {
+    font-family: apexfont;
+    font-size: 85%;
+    padding-left: 2%;
+    padding-right: 2%;
+    outline: none;
+    padding:2%;
+    margin-bottom: 10px;
+    list-style-type: none;
+    -webkit-transition: .2s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+li:hover{
+    margin-top: -5px;
+    text-decoration: underline;
+
+    
+}
+
+@media (max-width:400px){
+    .menu{
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+
+    }
+    body{
+        margin-right: 0%;
+    }
+    .intro{
+        text-align: center;
+    }
+}
+
+  
+
+ 
+  
