@@ -37,8 +37,8 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 .tiktok{
     width: 49%;

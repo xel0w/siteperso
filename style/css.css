@@ -2,9 +2,8 @@
 @font-face { font-family: apexfont2; src: url('apexfont2.ttf'); } 
 
 body{
-    background:#001c2d;
-    background-size: 100% auto;
-    background-attachment: fixed;
+    background: rgb(0,28,45);
+    background: linear-gradient(0deg, rgba(0,28,45,1) 84%, rgba(0,83,133,1) 100%);
     margin-right: 5%;
     margin-left: 0px;
     margin-top: 0px;
