@@ -4,7 +4,7 @@
 body{
     background: rgb(0,28,45);
     background: linear-gradient(0deg, rgba(0,28,45,1) 84%, rgba(0,83,133,1) 100%);
-    margin-right: 5%;
+    margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
     color: aliceblue;
@@ -149,7 +149,15 @@ li:hover{
 
     
 }
-
+footer{
+    background: rgb(1, 23, 37);
+    height: 5vh;
+    margin-right: 0px !important; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: apexfont;
+}
 
 
 .lecteur{
