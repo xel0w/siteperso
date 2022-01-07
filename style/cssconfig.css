@@ -47,7 +47,8 @@ nav{
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 3%;
 }
 .composant{
     position: relative;
@@ -66,8 +67,8 @@ nav{
     z-index: 100;
 }
 .composant:hover{
-    -webkit-transform: scale(1.3);
-	transform: scale(1.3);
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 .rtx {
     top: 50%;
@@ -102,8 +103,8 @@ nav{
     z-index: 100;
 }
 .periph:hover{
-    -webkit-transform: scale(1.3);
-	transform: scale(1.3);
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 .confighaut{
     display: flex;
