@@ -14,6 +14,7 @@ body{
 nav{
     background: rgb(0,28,45);
     background: linear-gradient(0deg, rgba(0,28,45,1) 48%, rgba(38,87,117,1) 100%);
+    height: 15vh;
     padding-left: 15%;
     padding-right: 15%;
     display: flex;
@@ -21,10 +22,10 @@ nav{
     border-bottom: 3px solid white;
 }
 .logo{
-    width: 15%;
+    width: 13%;
 }
 .menu{
-    margin-top: 5%;
+    margin-top: 3%;
     width: 30%;
     font-family: apexfont;
     font-size: 30px;
@@ -112,22 +113,108 @@ footer{
     justify-content: center;
     text-align: center;
 }
-
-@media (max-width:400px){
-    .menu{
-        display: flex;
-        justify-content: end;
-        flex-direction: column;
-
-    }
-    body{
-        margin-right: 0%;
-    }
-    .intro{
-        text-align: center;
-    }
+label
+{
+    display: none;
+}
+ 
+label, #toggle
+{
+    display: none;
 }
 
+@media screen and (max-width:900px){
+    nav{
+        height: 10vh;
+        margin-bottom: 20%;
+    }
+    .logo{
+        
+    }
+    nav .menu
+    {
+        display: none;
+        position: absolute;
+        right:45px;
+        top:-3%;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        width: 30%;
+        font-size: 30px;
+        background-color: rgba(0,83,133,0.25);
+        padding-left: 0%;
+        margin-bottom: 0%;
+    }
+    
+    
+    nav .menu a {
+        width: auto;
+        height: 200px;
+    }
+        
+    label 
+    {
+        position: absolute;
+        right: 2% ;
+        top: 2%;
+        width: 10%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+        
+    #toggle:checked + .menu {
+        display: flex;
+        
+    }
+    .clipapexhaut img{
+        display: none;
+    }
+    .clipapexbas img{
+        display: none;
+    }
+    .clipvalohaut img{
+        display: none;
+    }
+    .clipvalobas img{
+        display: none;
+    }
+    .clipapexhaut, .clipapexbas, .clipvalohaut,.clipvalobas{
+        height: 37%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .clipapex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .logoapex{
+        margin-bottom: 15%;
+        width: 150%;
+    }
+    .clipvalo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .logovalo{
+        margin-bottom: 15%;
+    }
+    #myVideo {
+        height: 50%;
+    }
+
+}
   
 
  
