@@ -61,6 +61,7 @@ nav{
 .logoapex img{
     width: 20%;
 }
+
 a{
     text-decoration: none;
     outline: none;
@@ -111,7 +112,7 @@ footer{
     font-family: apexfont;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 label
 {
@@ -122,14 +123,20 @@ label, #toggle
 {
     display: none;
 }
-
+.mobile{
+    display: none;
+}
 @media screen and (max-width:900px){
     nav{
         height: 10vh;
         margin-bottom: 20%;
     }
+    li:hover{
+        margin-top: 0px;
+    }
     .logo{
-        
+        width: 30%;
+        margin-left: -15%;
     }
     nav .menu
     {
@@ -147,8 +154,6 @@ label, #toggle
         padding-left: 0%;
         margin-bottom: 0%;
     }
-    
-    
     nav .menu a {
         width: auto;
         height: 200px;
@@ -167,52 +172,42 @@ label, #toggle
         font-size: 40px;
         color: white;
         cursor: pointer;
-    }
-        
+    }  
     #toggle:checked + .menu {
-        display: flex;
-        
+        display: flex;   
     }
-    .clipapexhaut img{
+    .pc{
         display: none;
-    }
-    .clipapexbas img{
-        display: none;
-    }
-    .clipvalohaut img{
-        display: none;
-    }
-    .clipvalobas img{
-        display: none;
-    }
-    .clipapexhaut, .clipapexbas, .clipvalohaut,.clipvalobas{
-        height: 37%;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-    }
-    .clipapex{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5%;
-    }
-    .logoapex{
-        margin-bottom: 15%;
-        width: 150%;
-    }
-    .clipvalo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5%;
-    }
-    .logovalo{
-        margin-bottom: 15%;
     }
     #myVideo {
         height: 50%;
     }
+    .mobile{
+        display: flex;
+        height: 20%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile p{
+        font-family: apexfont;
+        font-size: x-large;
+    }
+    .mobile img{
+        height: 100%;
+    }
+    .mobile a{
+        height: 80%;
+    }
+    body{
+        height:90vh;
+    }
+    footer{
+        position: absolute;
+        width: 100%;
+        bottom: 0%;
+    }
+    
 
 }
   

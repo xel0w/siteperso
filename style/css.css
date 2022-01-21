@@ -158,7 +158,7 @@ footer{
     margin-right: 0px !important; 
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     font-family: apexfont;
 }
 
@@ -183,6 +183,9 @@ label, #toggle
     }
 }
 @media screen and (max-width:900px){
+    li:hover{
+        margin-top: 0px;
+    }
     .presentation{
         display: none;
     }
@@ -256,8 +259,12 @@ label, #toggle
         display: flex;    
     }
     body{
-        height: 94.5vh;
+        height: 95vh;
     }
-
+    footer{
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
 }
   
