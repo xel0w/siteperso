@@ -176,9 +176,7 @@ label, #toggle
 {
     display: none;
 }
-.imgmobile{
-    display: none;
-}
+
 @media screen and (max-width:600px){
     .intro img{
         width: 100%;
@@ -259,14 +257,6 @@ label, #toggle
     }
     body{
         height: 94.5vh;
-    }
-    .imgmobile{
-        display: flex;
-        justify-content: center;
-        height: 35%;
-    }
-    .imgmobile img{
-        height: 100%;
     }
 
 }
