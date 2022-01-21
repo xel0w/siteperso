@@ -176,6 +176,9 @@ label, #toggle
 {
     display: none;
 }
+.imgmobile{
+    display: none;
+}
 @media screen and (max-width:600px){
     .intro img{
         width: 100%;
@@ -200,9 +203,11 @@ label, #toggle
     }
     .imgintro{
         height: 70%;
+        margin-bottom: 10%;
     }
     .intro img{
         width: 70%;
+        height: 90%;
     }
     .reseau{
         height: 20%;
@@ -212,7 +217,6 @@ label, #toggle
         height: 100%;
         width: 100%;
     }
-    
     nav
     {
         height: 60px;
@@ -231,14 +235,11 @@ label, #toggle
         font-size: 30px;
         background-color: rgba(0,83,133,0.25);
         
-    }
-    
-        
+    }    
     nav .menu a {
         width: auto;
         height: 220px;
-    }
-        
+    }   
     label 
     {
         position: absolute;
@@ -252,11 +253,20 @@ label, #toggle
         font-size: 40px;
         color: white;
         cursor: pointer;
-    }
-        
+    }    
     #toggle:checked + .menu {
+        display: flex;    
+    }
+    body{
+        height: 94.5vh;
+    }
+    .imgmobile{
         display: flex;
-        
+        justify-content: center;
+        height: 35%;
+    }
+    .imgmobile img{
+        height: 100%;
     }
 
 }
