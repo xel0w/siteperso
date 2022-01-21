@@ -265,6 +265,7 @@ label, #toggle
         position: absolute;
         bottom: 0%;
         width: 100%;
+        float: bottom;
     }
 }
   
