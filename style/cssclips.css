@@ -3,6 +3,7 @@
 
 body{
     background:#001c2d;
+    background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     margin-right: 0px;
@@ -14,6 +15,7 @@ body{
 nav{
     background: rgb(0,28,45);
     background: linear-gradient(0deg, rgba(0,28,45,1) 48%, rgba(38,87,117,1) 100%);
+    background-repeat: no-repeat;
     height: 15vh;
     padding-left: 15%;
     padding-right: 15%;
@@ -199,15 +201,14 @@ label, #toggle
         height: 80%;
     }
     body{
-        height:90vh;
+        position: relative;
+        height: 98vh;
     }
     footer{
-        position: absolute;
-        width: 100%;
+        position: fixed;
         bottom: 0%;
+        width: 100%;
     }
-    
-
 }
   
 

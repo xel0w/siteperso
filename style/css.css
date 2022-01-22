@@ -4,6 +4,7 @@
 body{
     background: rgb(0,28,45);
     background: linear-gradient(0deg, rgba(0,28,45,1) 84%, rgba(0,83,133,1) 100%);
+    background-repeat: no-repeat;
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
@@ -259,13 +260,13 @@ label, #toggle
         display: flex;    
     }
     body{
-        height: 95vh;
+        position: relative;
+        height: 98vh;
     }
     footer{
-        position: absolute;
+        position: fixed;
         bottom: 0%;
         width: 100%;
-        float: bottom;
     }
 }
   
