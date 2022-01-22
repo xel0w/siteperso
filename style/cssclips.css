@@ -16,25 +16,27 @@ nav{
     background: rgb(0,28,45);
     background: linear-gradient(0deg, rgba(0,28,45,1) 48%, rgba(38,87,117,1) 100%);
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 80px;
     padding-left: 15%;
     padding-right: 15%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 3px solid white;
 }
+   
 .logo{
-    width: 13%;
+    width: 90px;
 }
 .menu{
-    margin-top: 3%;
-    width: 30%;
+
+    width: 300px;
     font-family: apexfont;
     font-size: 30px;
-    text-align: right;
     color: aliceblue;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .clipapex, .clipvalo{
     margin-top: 3%;
@@ -102,7 +104,7 @@ li:hover{
 #myVideo {
     width: 100%;
     height: 76vh;
-
+    padding: 3% 0;
   }
 .video{
     background-color: black;
@@ -131,13 +133,12 @@ label, #toggle
 @media screen and (max-width:900px){
     nav{
         height: 10vh;
-        margin-bottom: 30%;
+        margin-bottom: 35%;
     }
     li:hover{
         margin-top: 0px;
     }
     .logo{
-        width: 30%;
         margin-left: -15%;
     }
     nav .menu
@@ -145,7 +146,7 @@ label, #toggle
         display: none;
         position: absolute;
         right:45px;
-        top:-1%;
+        top:-2%;
         flex-direction: column;
         align-items: center;
         height: 200px;
@@ -163,7 +164,7 @@ label, #toggle
     {
         position: absolute;
         right: 2% ;
-        top: 2%;
+        top: 1%;
         width: 10%;
         display: flex;
         justify-content: right;

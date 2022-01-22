@@ -222,6 +222,7 @@ label, #toggle
     nav
     {
         height: 60px;
+        margin-bottom: 30%;
     }
         
     nav .menu
