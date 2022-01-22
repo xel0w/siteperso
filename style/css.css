@@ -34,7 +34,7 @@ body{
     background-size: cover;
 }
 .presentation img{
-    width: 100%;
+    width: 700px;
 }
 .imgintro{
     display: flex;
@@ -42,7 +42,7 @@ body{
 }
 .imgintro img{
     height: 35vh;
-    width: 20vw;
+    width: 400px;
 }
 .social{
     height:80%;
