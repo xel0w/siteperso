@@ -133,7 +133,7 @@ label, #toggle
 @media screen and (max-width:900px){
     nav{
         height: 10vh;
-        margin-bottom: 35%;
+        margin-bottom: 30%;
     }
     li:hover{
         margin-top: 0px;
@@ -154,10 +154,12 @@ label, #toggle
         font-size: 30px;
         background-color: rgba(0,83,133,0.25);
         padding: 0% 2%;
+        z-index: 1000;
     }
     nav .menu a {
         width: auto;
         height: 200px;
+        z-index: 1000;
     }
         
     label 
