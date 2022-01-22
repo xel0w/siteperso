@@ -5,6 +5,7 @@ body{
     background: rgb(0,28,45);
     background: linear-gradient(0deg, rgba(0,28,45,1) 84%, rgba(0,83,133,1) 100%);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 0px;
