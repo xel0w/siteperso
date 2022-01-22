@@ -1,8 +1,15 @@
-@font-face { font-family: apexfont; src: url('apexfont.ttf'); } 
-@font-face { font-family: apexfont2; src: url('apexfont2.ttf'); } 
+@font-face {
+    font-family: apexfont;
+    src: url('apexfont.ttf');
+}
 
-body{
-    background:#001c2d;
+@font-face {
+    font-family: apexfont2;
+    src: url('apexfont2.ttf');
+}
+
+body {
+    background: #001c2d;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -12,9 +19,9 @@ body{
     color: aliceblue;
 }
 
-nav{
-    background: rgb(0,28,45);
-    background: linear-gradient(0deg, rgba(0,28,45,1) 48%, rgba(38,87,117,1) 100%);
+nav {
+    background: rgb(0, 28, 45);
+    background: linear-gradient(0deg, rgba(0, 28, 45, 1) 48%, rgba(38, 87, 117, 1) 100%);
     background-repeat: no-repeat;
     height: 80px;
     padding-left: 15%;
@@ -24,12 +31,12 @@ nav{
     align-items: center;
     border-bottom: 3px solid white;
 }
-   
-.logo{
+
+.logo {
     width: 90px;
 }
-.menu{
 
+.menu {
     width: 300px;
     font-family: apexfont;
     font-size: 30px;
@@ -38,7 +45,8 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
-.main{
+
+.main {
     height: 85vh;
     display: flex;
     flex-direction: row;
@@ -47,17 +55,19 @@ nav{
     margin-right: 10%;
     margin-left: 10%;
 }
-.tiktok{
+
+.tiktok {
     width: 49%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
-.tiktok img{
 
+.tiktok img {
     margin-right: 10%;
 }
-.config{
+
+.config {
     width: 70%;
     height: 60%;
     display: flex;
@@ -65,7 +75,8 @@ nav{
     justify-content: space-around;
     margin-top: 3%;
 }
-.composant{
+
+.composant {
     position: relative;
     height: 95%;
     padding: 3%;
@@ -76,33 +87,34 @@ nav{
     font-family: apexfont;
     box-shadow: 10px 5px 5px black;
     -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
     z-index: 100;
 }
-.composant:hover{
+
+.composant:hover {
     -webkit-transform: scale(1.2);
-	transform: scale(1.2);
+    transform: scale(1.2);
 }
+
 .rtx {
     top: 50%;
     right: 17%;
     opacity: 0.5;
     position: absolute;
     width: 200px;
-
 }
-.gpro{
+
+.gpro {
     top: 50%;
     right: 14%;
     opacity: 0.5;
     position: absolute;
     width: 200px;
-
 }
 
-.periph{
+.periph {
     position: relative;
     height: 95%;
     padding: 3%;
@@ -113,67 +125,70 @@ nav{
     font-family: apexfont;
     box-shadow: 10px 5px 5px black;
     transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
     z-index: 100;
 }
-.periph:hover{
+
+.periph:hover {
     -webkit-transform: scale(1.2);
-	transform: scale(1.2);
+    transform: scale(1.2);
 }
-.confighaut{
+
+.confighaut {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 40%;
 }
-.configbas{
+
+.configbas {
     display: flex;
     justify-content: center;
     z-index: 99;
 }
-.configbas img{
+
+.configbas img {
     width: 70%;
     border-radius: 5px;
     box-shadow: 10px 5px 5px black;
 }
 
-a{
+a {
     text-decoration: none;
     outline: none;
     color: aliceblue;
     -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out; 
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
     text-decoration-color: red;
 }
-a:hover {
-    
 
+a:hover {
     -webkit-transform: scale(1.5);
-	transform: scale(1.5);
+    transform: scale(1.5);
 }
+
 li {
     font-family: apexfont;
     font-size: 85%;
     padding-left: 2%;
     padding-right: 2%;
     outline: none;
-    padding:2%;
+    padding: 2%;
     margin-bottom: 10px;
     list-style-type: none;
     -webkit-transition: .2s ease-in-out;
-	transition: .3s ease-in-out;
-
+    transition: .3s ease-in-out;
 }
-li:hover{
+
+li:hover {
     margin-top: -5px;
     text-decoration: underline;
-
-    
 }
-footer{
+
+footer {
     background: rgb(1, 23, 37);
     height: 5%;
     position: fixed;
@@ -184,55 +199,53 @@ footer{
     width: 100%;
     text-align: center;
     font-family: apexfont;
+}
 
-}
-label
-{
-    display: none;
-}
- 
-label, #toggle
-{
+label {
     display: none;
 }
 
-@media (max-width:400px){
-    .menu{
+label,
+#toggle {
+    display: none;
+}
+
+@media (max-width:400px) {
+    .menu {
         display: flex;
         justify-content: end;
         flex-direction: column;
-
     }
-    body{
+    body {
         margin-right: 0%;
     }
-    .intro{
+    .intro {
         text-align: center;
     }
 }
-@media screen and (max-width:900px){
-    nav{
+
+@media screen and (max-width:900px) {
+    nav {
         height: 10vh;
     }
-    li:hover{
+    li:hover {
         margin-top: 0px;
     }
-    .logo{
+    .logo {
         margin-left: -15%;
     }
-    nav .menu
-    {
+    nav .menu {
         display: none;
         position: absolute;
-        right:45px;
-        top:-2%;
+        right: 45px;
+        top: -2%;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         height: 200px;
         width: 30%;
         font-size: 30px;
-        background-color: rgba(0,83,133,0.25);
+        background-color: rgba(0, 83, 133, 0.25);
         padding: 0% 2%;
         z-index: 1000;
     }
@@ -241,11 +254,9 @@ label, #toggle
         height: 200px;
         z-index: 1000;
     }
-        
-    label 
-    {
+    label {
         position: absolute;
-        right: 2% ;
+        right: 2%;
         top: 1%;
         width: 10%;
         display: flex;
@@ -255,79 +266,78 @@ label, #toggle
         font-size: 40px;
         color: white;
         cursor: pointer;
-    }  
-    #toggle:checked + .menu {
-        display: flex;   
     }
-    .tiktok{
+    #toggle:checked+.menu {
+        display: flex;
+    }
+    .tiktok {
         display: none;
     }
-    .composant{
+    .composant {
         height: 35%;
         padding: 3%;
     }
-    .periph{
+    .periph {
         height: 35%;
         padding: 3%;
     }
-    .config{
+    .config {
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+    .rtx {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 200px;
+        opacity: 0.3;
+    }
+    .gpro {
+        position: absolute;
+        top: 12%;
+        right: -10%;
+        width: 200px;
+        opacity: 0.3;
+    }
+    p {
+        font-size: small;
+    }
 }
-.rtx {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    width: 200px;
-    opacity: 0.3;
-}
-.gpro {
-    position: absolute;
-    top: 12%;
-    right: 0%;
-    width: 200px;
-    opacity: 0.3;
-}
-p{
-    font-size: small;
-}
-    
-}
-@media screen and (max-width:1311px) and (min-width:900px){
-    .config{
+
+@media screen and (max-width:1311px) and (min-width:900px) {
+    .config {
         width: 40%;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-}
-.composant{
-    height: 30%;
-    padding: 3%;
-}
-.periph{
-    height: 30%;
-    padding: 3%;
-
-}
-p{
-    font-size: small;
-}
-.rtx {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    width: 200px;
-    opacity: 0.3;
-}
-.gpro {
-    position: absolute;
-    top: 12%;
-    right: 0%;
-    width: 200px;
-    opacity: 0.3;
-}
+    }
+    .composant {
+        height: 30%;
+        padding: 3%;
+    }
+    .periph {
+        height: 30%;
+        padding: 3%;
+    }
+    p {
+        font-size: small;
+    }
+    .rtx {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 200px;
+        opacity: 0.3;
+    }
+    .gpro {
+        position: absolute;
+        top: 12%;
+        right: 0%;
+        width: 200px;
+        opacity: 0.3;
+    }
 }
