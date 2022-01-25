@@ -16,8 +16,8 @@ nav{
     background: rgb(0,28,45);
     background: linear-gradient(0deg, rgba(0,28,45,1) 48%, rgba(38,87,117,1) 100%);
     background-repeat: no-repeat;
-    height: 80px;
-    padding-left: 15%;
+    height: 6vh;
+    padding-left: 20%;
     padding-right: 15%;
     display: flex;
     justify-content: space-between;
@@ -29,10 +29,8 @@ nav{
     width: 90px;
 }
 .menu{
-
-    width: 300px;
+    width: 20vw;
     font-family: apexfont;
-    font-size: 30px;
     color: aliceblue;
     display: flex;
     justify-content: space-around;
@@ -84,7 +82,7 @@ a:hover {
 }
 li {
     font-family: apexfont;
-    font-size: 85%;
+    font-size: 2vh;
     padding-left: 2%;
     padding-right: 2%;
     outline: none;

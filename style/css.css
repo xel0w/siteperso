@@ -208,8 +208,7 @@ label, #toggle
         display: none;
     }
     .droite{
-        margin-right: 2%;
-        width: 70%;
+        width: 100%;
     }
     .imgintro{
         height: 70%;
