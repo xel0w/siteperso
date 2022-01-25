@@ -153,6 +153,9 @@ li:hover{
 
     
 }
+ul{
+    margin-left: 25%;
+}
 footer{
     background: rgb(1, 23, 37);
     height: 5vh;
@@ -168,14 +171,7 @@ footer{
     display: flex;
     justify-content: center;
 }
-#twitch{
-    height:55vh;
-    width:45vw;
-}
-#chat_embed{
-    height:55vh;
-    width:13vw;
-}
+
 label
 {
     display: none;
@@ -184,6 +180,14 @@ label
 label, #toggle
 {
     display: none;
+}
+#twitch{
+    height:55vh;
+    width:45vw;
+}
+#chat_embed{
+    height:55vh;
+    width:13vw;
 }
 
 @media screen and (max-width:600px){
@@ -280,8 +284,24 @@ label, #toggle
 @media screen and (min-width:1921px){
     .presentation{
         width: auto;
+        margin-left: 10%;
     }
     .presentation img{
         width: max-content;
+    }
+    .droite{
+        width: 50%;
+    }
+    main{
+        justify-content: space-around;
+    }
+    nav{
+        justify-content: right;
+        
+    }
+    ul{
+        margin-right: 12%;
+    }.reseau{
+        margin-top: 10%;
     }
 } 
