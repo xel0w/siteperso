@@ -16,7 +16,7 @@ nav{
     background: rgb(0,28,45);
     background: linear-gradient(0deg, rgba(0,28,45,1) 48%, rgba(38,87,117,1) 100%);
     background-repeat: no-repeat;
-    height: 6vh;
+    height: 9vh;
     padding-left: 20%;
     padding-right: 15%;
     display: flex;
@@ -82,7 +82,7 @@ a:hover {
 }
 li {
     font-family: apexfont;
-    font-size: 2vh;
+    font-size: 3vh;
     padding-left: 2%;
     padding-right: 2%;
     outline: none;
@@ -127,6 +127,10 @@ label, #toggle
 }
 .mobile{
     display: none;
+}
+iframe{
+    width: 30vw;
+    height: 40vh;
 }
 @media screen and (max-width:900px){
     nav{

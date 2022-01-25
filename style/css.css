@@ -284,7 +284,7 @@ label, #toggle
 @media screen and (min-width:1921px){
     .presentation{
         width: auto;
-        margin-left: 10%;
+        margin-left: 5%;
     }
     .presentation img{
         width: max-content;
