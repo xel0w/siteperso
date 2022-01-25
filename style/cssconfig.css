@@ -209,7 +209,6 @@ label,
 #toggle {
     display: none;
 }
-
 @media (max-width:400px) {
     .menu {
         display: flex;
@@ -339,5 +338,13 @@ label,
         right: 0%;
         width: 200px;
         opacity: 0.3;
+    }
+}
+@media screen and (min-width:1311px){
+    .composant, .periph{
+    min-height: 300px;
+    }
+    footer{
+        z-index: 2000;
     }
 }
