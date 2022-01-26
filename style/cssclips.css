@@ -1,6 +1,5 @@
-@font-face { font-family: apexfont; src: url('apexfont.ttf'); } 
-@font-face { font-family: apexfont2; src: url('apexfont2.ttf'); } 
-
+@font-face { font-family: apexfont; src: url('coolveticagras.otf'); } 
+@font-face { font-family: apexfont2; src: url('coolveticanormal.otf'); }
 body{
     background:#001c2d;
     background-repeat: no-repeat;
@@ -75,14 +74,17 @@ a{
     text-decoration-color: red;
 }
 a:hover {
-    
-
     -webkit-transform: scale(1.5);
 	transform: scale(1.5);
 }
+#logoindex:hover{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+}
 li {
     font-family: apexfont;
-    font-size: 3vh;
+    letter-spacing: 1px;
+    font-size: 3.5vh;
     padding-left: 2%;
     padding-right: 2%;
     outline: none;
@@ -110,8 +112,10 @@ li:hover{
 footer{
     background: rgb(1, 23, 37);
     height: 5vh;
+    letter-spacing: 1px;
     margin-right: 0px !important; 
     font-family: apexfont;
+    font-size: 2.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
