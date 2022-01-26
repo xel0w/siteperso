@@ -71,6 +71,7 @@ nav{
 .composant {
     position: relative;
     height: 95%;
+    min-height: 20vh;
     width: 17vw;
     padding: 3%;
     border: 1px solid grey;
@@ -86,6 +87,7 @@ nav{
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
     z-index: 100;
+    overflow: hidden;
 }
 
 .composant:hover {
@@ -112,6 +114,7 @@ nav{
 .periph {
     position: relative;
     height: 95%;
+    min-height: 20vh;
     width: 17vw;
     padding: 3%;
     border: 1px solid grey;
@@ -126,6 +129,7 @@ nav{
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
     z-index: 100;
+    overflow: hidden;
 }
 
 .periph:hover {
@@ -340,11 +344,15 @@ label,
 }
 @media screen and (min-width:1921px){
     .composant, .periph{
-        height: 60%;
-        width: 40%;
-        font-size: x-large;
+        height: 100%;
+        width: 35%;
+        font-size: 2.5vh;
+    }
+    .config{
+        width: 80%;
     }
     .rtx, .gpro{
         width: 280px;
+        float: bottom;
     }
 }
