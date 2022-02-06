@@ -218,11 +218,6 @@ label,
     display: none;
 }
 @media (max-width:400px) {
-    .menu {
-        display: flex;
-        justify-content: end;
-        flex-direction: column;
-    }
     body {
         margin-right: 0%;
     }
@@ -234,6 +229,8 @@ label,
 @media screen and (max-width:900px) {
     nav {
         height: 10vh;
+        border-bottom: 0;
+        padding-left: 5%;
     }
     li:hover {
         margin-top: 0px;
@@ -242,40 +239,86 @@ label,
         margin-left: -15%;
     }
     nav .menu {
-        display: none;
+        visibility: hidden;
         position: absolute;
-        right: 45px;
-        top: -2%;
+        right: 15%;
+        top: 0%;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
         height: 200px;
         width: 30%;
         font-size: 30px;
         background-color: rgba(0, 83, 133, 0.25);
-        padding: 0% 2%;
-        z-index: 1000;
+        z-index: 2000;
+        margin: 0%;
+        padding: 0%;
     }
     nav .menu a {
         width: auto;
-        height: 200px;
-        z-index: 1000;
+        height: 220px;
     }
-    label {
-        position: absolute;
-        right: 2%;
-        top: 1%;
-        width: 10%;
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        margin: 0 auto;
-        font-size: 40px;
-        color: white;
+    .menu.active {
+        visibility: visible; 
+        width: 32%;
+    }
+    body {
+        position: relative;
+        height: 94vh;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+    }
+
+    .burger {
+        width: 36px;
+        height: 24px;
         cursor: pointer;
+        position: relative;
+        left: 15%;
+        top: 0%;
+        display: block;
     }
-    #toggle:checked+.menu {
-        display: flex;
+
+    .burger span {
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        transform: rotateY(-50%);
+        transition: background-color 0.1s ease-in-out;
+    }
+
+    .burger span::before, .burger span::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .burger span::before {
+        transform: translateY(-10px);
+    }
+
+    .burger span::after {
+        transform: translateY(10px);
+    }
+
+    .burger.active span {
+        background-color: transparent;
+    }
+
+    .burger.active span::before {
+        transform: translateY(0px) rotateZ(45deg);
+    }
+
+    .burger.active span::after {
+        transform: translateY(0px) rotateZ(-45deg);
     }
     .tiktok {
         display: none;
